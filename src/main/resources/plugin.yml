@@ -1,0 +1,26 @@
+name: FarmingSimulator
+version: '${project.version}'
+main: dev.sasukector.farmingsimulator.FarmingSimulator
+api-version: 1.18
+authors: [ Sasukector ]
+description: This is the core plugin for FarmingSimulator
+website: https://sasukector.dev
+commands:
+  points:
+    description: Command to manage points
+    usage: /points [option] [subOption]
+  played:
+    description: Command to see played time of a player
+    usage: /played [playerName]
+  conter-tps:
+    description: Command to display tps
+    usage: /tps
+  inventory:
+    description: Command to see player inventory
+    usage: /inventory [playerName]
+  sell:
+    description: Command to sell inventory items
+    usage: /sell
+  game:
+    description: Command to manage the game
+    usage: /game [option]
