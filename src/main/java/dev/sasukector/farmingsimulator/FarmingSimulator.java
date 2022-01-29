@@ -4,6 +4,7 @@ import dev.sasukector.farmingsimulator.commands.*;
 import dev.sasukector.farmingsimulator.controllers.BoardController;
 import dev.sasukector.farmingsimulator.controllers.PointsController;
 import dev.sasukector.farmingsimulator.controllers.TeamsController;
+import dev.sasukector.farmingsimulator.events.GameEvents;
 import dev.sasukector.farmingsimulator.events.SpawnEvents;
 import lombok.Getter;
 import org.bukkit.Bukkit;
@@ -27,6 +28,7 @@ public final class FarmingSimulator extends JavaPlugin {
 
         // Register events
         this.getServer().getPluginManager().registerEvents(new SpawnEvents(), this);
+        this.getServer().getPluginManager().registerEvents(new GameEvents(), this);
         Bukkit.getOnlinePlayers().forEach(player -> BoardController.getInstance().newPlayerBoard(player));
 
         // Register commands
