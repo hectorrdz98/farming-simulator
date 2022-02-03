@@ -1,26 +1,14 @@
-name: FarmingSimulator
+name: ConterSubsHelper
 version: '${project.version}'
-main: dev.sasukector.farmingsimulator.FarmingSimulator
+main: dev.sasukector.contersubshelper.ConterSubsHelper
 api-version: 1.18
 authors: [ Sasukector ]
-description: This is the core plugin for FarmingSimulator
+description: This is the core plugin for ConterSubsHelper
 website: https://sasukector.dev
 commands:
-  points:
-    description: Command to manage points
-    usage: /points [option] [subOption]
   played:
     description: Command to see played time of a player
     usage: /played [playerName]
-  conter-tps:
-    description: Command to display tps
-    usage: /tps
-  inventory:
-    description: Command to see player inventory
-    usage: /inventory [playerName]
-  sell:
-    description: Command to sell inventory items
-    usage: /sell
-  game:
-    description: Command to manage the game
-    usage: /game [option]
+  sit:
+    description: Command to sit
+    usage: /sit

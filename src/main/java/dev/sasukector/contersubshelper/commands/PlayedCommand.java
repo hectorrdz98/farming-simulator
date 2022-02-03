@@ -1,6 +1,6 @@
-package dev.sasukector.farmingsimulator.commands;
+package dev.sasukector.contersubshelper.commands;
 
-import dev.sasukector.farmingsimulator.helpers.ServerUtilities;
+import dev.sasukector.contersubshelper.helpers.ServerUtilities;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.Statistic;

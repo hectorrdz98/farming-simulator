@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package dev.sasukector.farmingsimulator.helpers;
+package dev.sasukector.contersubshelper.helpers;
 
 import org.bukkit.Bukkit;
 
